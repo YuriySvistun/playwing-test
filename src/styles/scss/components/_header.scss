@@ -1,0 +1,56 @@
+.header {
+    background: #242632;
+    padding: 8px 0;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.main-logo {
+    max-width: 200px;
+    width: 100%;
+}
+
+.user-icon {
+    max-width: 30px;
+    width: 100%;
+}
+
+.burger {
+    display: inline-block;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+
+    &__line {
+        display: block;
+        width: 35px;
+        height: 5px;
+        border-radius: 6px;
+        background: $green;
+        margin: 5px;
+        transition: transform 0.1s linear, opacity 0.1s linear;
+
+        &--2 {
+            width: 27px;
+        }
+    }
+
+    &__checkbox:checked {
+        ~.burger__line {
+            &--1 {
+                transform: translate(0, 10px) rotate(-45deg);
+            }
+
+            &--2 {
+                opacity: 0;
+            }
+
+            &--3 {
+                transform: translate(0, -10px) rotate(45deg);
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lp</title>
+    <link rel="stylesheet" href="./src/styles/lp.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="./lp-rtl.html" class="header__lang-switcher">arb</a>
+                <div class="header__logo">
+                    <img src="./src/assets/images/headerlogo-lp.svg" alt="logo" class="header__image">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="head"> 
+                <h1 class="head__title">For the best content<br>Click below</h1>
+                <div class="head__list">
+                    <i class="icon-circle-arrow-down head__icon"></i>
+                    <i class="icon-circle-arrow-down head__icon"></i>
+                    <i class="icon-circle-arrow-down head__icon"></i>
+                </div>
+                <p class="head__text">Get access to an extensive collection of premium games</p>
+            </section>
+    
+            <form action="#" class="form-number">
+                <div class="form-number__inner">
+                    <label for="inputNumber" class="form-number__label">Enter your phone number:</label>
+                    <div class="input-number">
+                        <span class="input-number__prefix" id="numberPrefix">+92</span>
+                        <input type="tel" id="inputNumber" class="input-number__input" placeholder="xxx xxx xxx">
+                        <span class="input-number__checkmark input-number__checkmark--disabled">
+                            <i class="icon-checkmark"></i>
+                        </span>
+                    </div>
+                    <button type="submit" class="submit-button submit-button--disabled">get otp</button>
+                    <p class="form-number__text">11.95 PKR/Day </p>
+                </div>
+            </form>
+
+            <form action="#" class="form-pin">
+                <p class="form-pin__label">Enter PIN:</p>
+                <ul class="form-pin__list">
+                    <li class="form-pin__item">
+                        <i class="icon-lock"></i>
+                    </li>
+                    <li class="form-pin__item">
+                        <input type="text" name="" id="0" class="form-pin__input" maxlength="1">
+                    </li>
+                    <li class="form-pin__item">
+                        <input type="text" name="" id="1" class="form-pin__input" maxlength="1">
+                    </li>
+                    <li class="form-pin__item">
+                        <input type="text" name="" id="2" class="form-pin__input" maxlength="1">
+                    </li>
+                    <li class="form-pin__item">
+                        <input type="text" name="" id="3" class="form-pin__input" maxlength="1">
+                    </li>
+                </ul>
+                <button type="submit" class="submit-button submit-button--disabled">subscribe</button>
+                <p class="form-pin__text">11.95 PKR/Day</p> 
+                <div class="form-pin__links-block">
+                    <a href="#" class="form-pin__links" id="changePin">Re-send SMS with PIN code</a>
+                    <a href="#" class="form-pin__links" id="changeNumber">Change number</a>
+                </div>
+            </form>
+    
+            <div class="drop-down">
+                <input type="checkbox" id="dropdown" class="drop-down__checkbox visually-hidden">
+                <label class="drop-down__label" for="dropdown">
+                    <i class="icon-arrow-down"></i>
+                    <span>read more</span>
+                    <i class="icon-arrow-down"></i>
+                </label>
+                <div class="drop-down__content">
+                    <p>The cost will be added to your mobile phone bill.</p>
+                    <p>You will be able to play the games already downloaded even if you unsusbcribe </p>
+                    <p>Enjoy over 150 top premium games: ads free and without in-app purchases!</p>
+                    <p>You can cancel your subscription at anytime from <span>My account</span> section.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="#" class="footer__link">t&c</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">contact us</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">faq</a>
+                </li>
+            </ul>
+            <div class="footer__logo">
+                <img src="./src/assets/images/footer-logo.svg" alt="logo" class="footer__image">
+            </div>
+            <p class="footer__text">&copy;2023 All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="./src/js/inputmask.min.js"></script>
+    <script src="./src/js/lp.js"></script>
+</body>
+</html>

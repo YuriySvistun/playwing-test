@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./src/styles/home.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <label class="burger">
+                    <input type="checkbox" class="burger__checkbox visually-hidden">
+                    <span class="burger__line burger__line--1"></span>
+                    <span class="burger__line burger__line--2"></span>
+                    <span class="burger__line burger__line--3"></span>
+                </label>
+                <div class="main-logo">
+                    <img src="./src/assets/images/bitegames-header.svg" alt="logo" class="main-logo__image">
+                </div>
+                <div class="user-icon">
+                    <img src="./src/assets/images/user-icon.svg" alt="icon" class="user-icon__image">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./src/assets/images/game-slider.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./src/assets/images/game-slider.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./src/assets/images/game-slider.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper__pagination"></div>
+                <button class="swiper__button swiper__button--prev" type="button">
+                    <i class="icon-arrow-left"></i>
+                </button>
+                <button class="swiper__button swiper__button--next" type="button">
+                    <i class="icon-arrow-right"></i>
+                </button>
+              </div>
+              <div class="subscribe-block">
+                <button type="button" class="subscribe-button">subscribe</button>
+              </div>
+              <div class="splitter"></div>
+              <section class="new-games">
+                <h4 class="games-title">New Games <span class="games-title__count">6</span></h4>
+                <ul class="new-games__list">
+                    <li class="new-games__item">
+                        <a href="#"class="new-games__link">
+                            <img src="./src/assets/images/game1.svg" alt="game1" class="new-games__image">
+                        </a>
+                    </li>
+                    <li class="new-games__item">
+                        <a href="#"class="new-games__link">
+                            <img src="./src/assets/images/game2.svg" alt="game2" class="new-games__image">
+                        </a>
+                    </li>
+                    <li class="new-games__item">
+                        <a href="#"class="new-games__link">
+                            <img src="./src/assets/images/game3.svg" alt="game3" class="new-games__image">
+                        </a>
+                    </li>
+                    <li class="new-games__item">
+                        <a href="#"class="new-games__link">
+                            <img src="./src/assets/images/game4.svg" alt="game4" class="new-games__image">
+                        </a>
+                    </li>
+                    <li class="new-games__item">
+                        <a href="#"class="new-games__link">
+                            <img src="./src/assets/images/game5.svg" alt="game5" class="new-games__image">
+                        </a>
+                    </li>
+                    <li class="new-games__item">
+                        <a href="#"class="new-games__link">
+                            <img src="./src/assets/images/game6.svg" alt="game6" class="new-games__image">
+                        </a>
+                    </li>
+                </ul>
+                <div class="new-games__button-wrapper">
+                    <a href="#" class="new-games__more-button">more games <span class="icon"><i class="icon-plus"></i></span></a>
+                </div>
+              </section>
+              <section class="popular-games">
+                    <h4 class="games-title">popular ganes <span class="games-title__count">5</span></h4>
+                    <ul class="popular-games__list">
+                        <li class="popular-games__item">
+                            <a href="#" class="popular-games__link">
+                                <img src="./src/assets/images/game7.svg" alt="game7" class="popular-games__image">
+                            </a>
+                        </li>
+                        <li class="popular-games__item">
+                            <a href="#" class="popular-games__link">
+                                <img src="./src/assets/images/game8.svg" alt="game8" class="popular-games__image">
+                            </a>
+                        </li>
+                        <li class="popular-games__item">
+                            <a href="#" class="popular-games__link">
+                                <img src="./src/assets/images/game9.svg" alt="game9" class="popular-games__image">
+                            </a>
+                        </li>
+                        <li class="popular-games__item">
+                            <a href="#" class="popular-games__link">
+                                <img src="./src/assets/images/game10.svg" alt="game10" class="popular-games__image">
+                            </a>
+                        </li>
+                        <li class="popular-games__item">
+                            <a href="#" class="popular-games__link">
+                                <img src="./src/assets/images/game11.svg" alt="game11" class="popular-games__image">
+                            </a>
+                        </li>
+                    </ul>
+              </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__buttons-block">
+                <a class="footer__button" href="#">Contact us</a>
+                <a class="footer__button" href="#">FAQ</a>
+              </div>
+            <div class="footer__logo">
+                <img src="./src/assets/images/footer-logo.svg" alt="logo" class="footer__image">
+            </div>
+            <p class="footer__text">&copy;BITEGAMES 2020 All rights reserved</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+    <script src="./src/js/swiper.js" defer></script>
+</body>
+</html>

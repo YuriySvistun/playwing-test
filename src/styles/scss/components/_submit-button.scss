@@ -1,0 +1,16 @@
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 17px;
+    font-size: 17px;
+    line-height: 1;
+    background: #29D884;
+    border-radius: 4.1px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &--disabled {
+        background: linear-gradient(180deg, #797C7B 0%, #797C7B 100%);
+        pointer-events: none;
+    }
+}

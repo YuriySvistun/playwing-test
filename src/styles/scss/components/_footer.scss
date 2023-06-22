@@ -1,0 +1,40 @@
+.footer {
+    background: #1E2128;
+    padding: 0 0 10px;
+
+    &__buttons-block {
+        display: flex;
+        justify-content: space-between;
+        max-width: 286px;
+        width: 100%;
+        margin: 0 auto 22px;
+    }
+
+    &__button {
+        max-width: 134px;
+        width: 100%;
+        display: block;
+        background: $green;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 600;
+        padding: 13px;
+        color: $black;
+    }
+
+    &__logo {
+        max-width: 139px;
+        width: 100%;
+        margin: 0 auto 6px;
+    }
+
+    &__text {
+        font-size: 12px;
+        line-height: 15px;
+        // color: $white;
+        text-align: center;
+        margin: 0;
+    }
+}

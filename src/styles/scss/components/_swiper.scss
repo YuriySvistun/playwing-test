@@ -1,0 +1,47 @@
+.swiper {
+    margin: 0 -15px;
+
+    &__button {
+        background: transparent;
+        border: none;
+        outline: none;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        padding: 0;
+
+        &--prev {
+            left: 12px;
+        }
+
+        &--next {
+            right: 12px;
+        }
+
+        > i {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 46px;
+        }
+    }
+
+    &__pagination {
+        position: absolute;
+        text-align: center;
+        bottom: 12px !important;
+        z-index: 1;
+    }
+
+    &__bullet {
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        background: #c4c4c4;
+        margin: 0 4px;
+
+        &--current {
+            background: $white;
+        }
+    }
+}
